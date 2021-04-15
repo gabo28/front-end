@@ -1,0 +1,34 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "builddev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open --port 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabo28/front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabo28/front-end/issues"
+  },
+  "homepage": "https://github.com/gabo28/front-end#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.1",
+    "eslint-loader": "^4.0.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "json-loader": "^0.5.7",
+    "styles-loader": "^3.0.0",
+    "stylus-loader": "^5.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
