@@ -34,6 +34,8 @@ body {
     height: 90vh;
 }
 
+
+
 .mt-10{
     margin-top: 10px;
 }
@@ -84,3 +86,11 @@ body {
     z-index: 2;
 }
 
+@media screen and (max-width: 767px) {
+    .h-90-vh {
+      height: 100%;
+    }
+    .box-s-container{
+        box-shadow: 0 0 0 0 #e0e0e0;
+    }
+  }
