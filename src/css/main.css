@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.box-s-container{
+    box-shadow: 0 0 0px 1px #e0e0e0;
+}
+
+.form-line[type="text"] {
+    border: 0 !important;
+    border-bottom: 1px solid !important;
+    border-radius: 0 !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-boca-login {
+    background-color: #002453;
+    padding: 7px 60px;
+    border-radius: 40px;
+}
+
+.btn-boca-login:hover{
+    background: #002a61;
+}
+
+.h-90-vh {
+    height: 90vh;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.bg-dark-blue {
+    background: #002453;
+}
+
+.bg-blue {
+    background: #002a61;
+}
+
+.img-blue{
+    width: 100%;
+    height: 60%;
+    background: #002a61;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.img-people{
+    background-image: url('../images/g2.png');
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50%;
+    position: absolute;
+    left: -30%;
+    bottom: 0;
+    z-index: 2;
+}
+
