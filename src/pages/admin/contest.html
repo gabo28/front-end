@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="/src/css/main.css">
+    <title>BOCA</title>
+</head>
+
+<body class="section d-flex">
+
+    <nav class="menu-vertical">
+        <div class="row mt-10">
+            <div class="col-12 text-center">
+                <h2>BOCA</h2>
+            </div>
+        </div>
+        <ul class="list-group mt-10 m-list">
+            <a href="home.html">
+                <li class="list-group-item ">Home</li>
+            </a>
+            <a href="profile.html">
+                <li class="list-group-item">Perfil</li>
+            </a>
+            <a href="contest.html">
+                <li class="list-group-item m-active">Consursos</li>
+            </a>
+        </ul>
+        <div class="content-img-nav">
+        </div>
+    </nav>
+    <div class="w-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menu-horizontal">
+            <div class="container">
+                <div class="row w-100">
+                    <div class="col-12 d-flex justify-content-end align-items-center">
+                        <a href="/" class="close" style="font-size: 16px;">Cerrar Sesión</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="section-meu">
+            <h2 class="text-center mt-30">Concursos</h2>
+            <form action="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 form-group mt-10">
+                            <label for="sa">Número de concurso</label>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Concurso 1</option>
+                                <option>Concurso 2</option>
+                                <option>Concurso 3</option>
+                                <option>Nuevo*</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 form-group mt-10">
+                            <label for="">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Nombre" name="fullName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-2 form-group mt-10">
+                            <label for="">Hora</label>
+                            <input type="number" class="form-control" placeholder="HH" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-2 form-group mt-10">
+                            <label for="">Minuto</label>
+                            <input type="number" class="form-control" placeholder="mm" name="fullName">
+                        </div>
+                        <div class="col-0 col-md-1"></div>
+                        <div class="col-6 col-md-2 form-group mt-10">
+                            <label for="">día</label>
+                            <input type="number" class="form-control" placeholder="dd" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-2 form-group mt-10">
+                            <label for="">Mes</label>
+                            <input type="number" class="form-control" placeholder="mm" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-3 form-group mt-10">
+                            <label for="">Año</label>
+                            <input type="number" class="form-control" placeholder="yyyy" name="fullName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-3 form-group mt-10">
+                            <label for="">Duración</label>
+                            <input type="number" class="form-control" placeholder="En minutos" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-3 form-group mt-10">
+                            <label for="">Dejar de contestar</label>
+                            <input type="number" class="form-control" placeholder="En minutos" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-3 form-group mt-10">
+                            <label for="">Detener marcador</label>
+                            <input type="number" class="form-control" placeholder="En minutos" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-3 form-group mt-10">
+                            <label for="">Multa</label>
+                            <input type="number" class="form-control" placeholder="En minutos" name="fullName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-4 form-group mt-10">
+                            <label for="">Tamaño de archivo maximo permitido</label>
+                        <input type="number" class="form-control" placeholder="En KB" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-8 form-group mt-10">
+                            <label for="">Sitio principal del concurso</label>
+                        <input type="text" class="form-control" placeholder="IP/bocafolder" name="fullName">
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-5 form-group mt-10">
+                            <label for="">Número del sitio principal del concurso</label>
+                            <input type="number" class="form-control" placeholder="En minutos" name="fullName">
+                        </div>
+                        <div class="col-6 col-md-5 form-group mt-10">
+                            <label for="">Concurso número de sitio loca</label>
+                            <input type="number" class="form-control" placeholder="En minutos" name="fullName">
+                        </div>
+                        
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-9 col-md-6 col-lg-5 col-xl-4 form-group mt-10 d-flex justify-content-between">
+                            <input type="submit" class="btn btn-success" value="Enviar">
+                            <input type="submit" class="btn btn-primary" value="Activar">
+                            <input type="submit" class="btn btn-danger" value="Limpiar">
+                        </div>
+                    </div>
+                </div>
+
+
+    </div>
+    </form>
+    </section>
+    </div>
+
+</body>
+
+</html>
