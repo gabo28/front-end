@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="/src/css/main.css">
+
+    <title>Boca: Lenguajes de progrmación</title>
+</head>
+
+<body>
+    <section id="login" class="d-flex justify-content-center align-items-center">
+        <div class="container-fluid">
+            <table class="table align-middle box-s-container justify-content-center" style="width: 70%; margin-left: 15%;">
+                <header>
+                    <tr>
+                        <th scope="col">Id de lenguaje</th>
+                        <th scope="col">Nombre del lenguaje</th>
+                        <th scope="col">Extension del lenguaje</th>
+                    </tr>
+                </header>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>C</td>
+                        <td>c</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>C++11</td>
+                        <td>cc</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Java</td>
+                        <td>java</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Phyton2</td>
+                        <td>py2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Phyton3</td>
+                        <td>py3</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section id="login" class="d-flex justify-content-center align-items-center">
+        </div>
+        <div class="col-12 col-sm-10 col-md-7 col-lg-8 col-lg-8 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-l-center text-center text-warning">
+                        <p>
+                            ADVERTENCIA: Al hacer clic en el id del lenguaje lo ELIMINARA. Borrar un lenguaje eliminara todo lo relacionado a este. No es recomendable editar los lenguajes cuando hay un corcurso en curso. Para crear/editar un lenguaje use las casillas de abajo. Tenga
+                            en cuenta que cualquier cambio sobreescribira los datos ya definidos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="login" class="d-flex justify-content-center align-items-center">
+        <div class="row justify-content-center">
+            <div class="col-20 col-lg-30">
+                <form action="src/pages/admin/home.html" id="formLogin" class="justify-content-center">
+                    <div class="form-group">
+                        <label for="formEmail">Id de lenguaje #</label>
+                        <input type="text" class="form-control input-space" id="formDescUser" placeholder="Ej:1">
+                    </div>
+                    <div class="form-group">
+                        <label for="formEmail">Nombre del lenguaje de programación</label>
+                        <input type="text" class="form-control input-space" id="formDescUser" placeholder="Ej:Java">
+                    </div>
+                    <label for="basic-url" class="form-label">Extensión del lenguaje de programación</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">.</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="form-group d-flex justify-content-center">
+                        <input type="submit" class="btn btn-primary btn-boca-login btn-space" id="formLoginButton" value="Enviar">
+                        <input type="reset" class="btn btn-secundary btn-boca-reset btn-space" id="formResetButton" value="Cancelar">
+                </form>
+                </div>
+            </div>
+    </section>
+</body>
