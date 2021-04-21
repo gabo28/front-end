@@ -18,11 +18,60 @@
 </head>
 
 <body class="h-90-vh">
-    <div class="container-fluid align-middle h-90-vh" style="width: 75%; margin-top: 15%;">
+        
+    <div class="container-fluid align-middle h-90-vh" style="width: 75%; margin-top: 5%;">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Problema #</th>
+                <th scope="col">Nombre Corto</th>
+                <th scope="col">Nombre Completo</th>
+                <th scope="col">Nombre base</th>
+                <th scope="col">DescFile</th>
+                <th scope="col">Archivo de paquete</th>
+                <th scope="col">Color</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>                           
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>                
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>                
+              </tr>
+            </tbody>
+          </table>
+        <p><strong> Hacer clic en un número de problema lo eliminará.
+            ADVERTENCIA: eliminar un problema eliminará TODO lo relacionado con él.
+            NO se recomienda cambiar nada mientras se ejecuta el concurso.
+            Para importar un problema, complete los siguientes campos.
+            Para reemplazar los datos de un problema, proceda como si no existiera (los datos se reemplazarán sin eliminarlos).</strong></p>
         <form class="row g-6 needs-validation box-s-container justify-content-center" novalidate style="margin-top: 2%">
             <p class="col-10 text-sm-center h3 justify-content-justify">
                
                 Reporte de problemas
+                
             </p>
             <p>Para importar un problema, complete los siguientes campos.</p>
             <div class="col-md-10 col-12">
@@ -49,13 +98,7 @@
                                         <label for="formFile" class="form-label">Importar archivo</label>
                                     </label>  <input class="form-control" type="file" id="formFile"></label>
                                       </div></label>
-                                    </label>
-                                    <div class="form-group d-flex justify-content-justify">
-                                        <input type="submit" class="btn btn-primary btn-boca-login btn-space" id="formImportButton"
-                                            value="Importar">
-                                        <input type="reset" class="btn btn-secundary btn-boca-reset btn-space" id="formResetButton"
-                                            value="Cancelar"></label>
-                                        </p></label>
+                                    </label>                                    
                                     </label>
 
                                 </label>  <div class="col-md-10 col-12">
@@ -75,6 +118,12 @@
                                                 </div></p></label>
                                             </label>
                                     </div>
+                                    <div class="form-group d-flex justify-content-center">
+                                        <input type="submit" class="btn btn-primary btn-boca-login btn-space" id="formEnviarProblems"
+                                            value="Enviar">
+                                        <input type="reset" class="btn btn-secundary btn-boca-reset btn-space" id="formCancelProblems"
+                                            value="Cancelar">
+                                    </div>     
                                 
             </label>
         
@@ -83,9 +132,6 @@
                     </p></p>
                     </div>
                 </div>
-            </div>
-            <div class="col-100 d-flex justify-content-justify">
-                <button class="btn btn-primary" type="submit">Enviar</button>
             </div>
         </form>
         </table>
